@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+.logoimg{
+    position:relative; 
+    display: flex;
+    float: left;
+    margin-top: -1rem;
+    height: 6em;
+    width: 6em;
+}
+.signlog { 
+    display: flex;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color:black;
+    
+}
+.signlog a{
+    color:black;
+    text-decoration: none;
+    
+}
+
+.ill-img{
+    position:relative;
+    display: flex;
+    float: right;
+    height:40em;
+    width:40em;
+    margin-right:-6em;
+    margin-top:-4.5em;
+    
+}
+.belowl{
+    position:relative;
+    display: flex;
+    float:left;
+    padding-top: 0.5em;
+    padding-left:1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    font-weight:bold;
+}
+.btn{
+    position:relative;
+    display: flex;
+    float:left;
+    padding-top: -2em;
+    padding-left: 2em; 
+   
+    
+}
+.btn-btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    background-color: #ff1154;
+    color: #FFFFFF;
+    border: 2px solid #ff1154;
+    width:9.5em;
+    height:3em;
+    border-radius:8px;
+    padding-top: 17px;
+    text-align: center; 
+    text-decoration: none;    
+}
+.btn a:hover{
+        display: block;
+        text-align: center;
+        border: 2px solid#ff1154;
+        outline: none;
+        border-radius:  24px;
+        box-shadow: 0 5px 15px crimson;
+        transition: 0.5s;
+}
+
+ 
