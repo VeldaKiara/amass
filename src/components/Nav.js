@@ -1,6 +1,6 @@
 import "../assets/styles/Navbar.css";
-import logo from '../assets/logo.png';
-import conference from '../assets/conference.svg';
+import logo from '../assets/images/logo.png';
+import conference from '../assets/images/conference.svg';
 const Nav = ()=>{
     return(
       <div> 
@@ -21,6 +21,7 @@ const Nav = ()=>{
       <div className="btn">
       <a href=" " className="btn-btn">Join Amass</a>
       </div>
+      
       </div>
     )
 }

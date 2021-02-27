@@ -1,7 +1,12 @@
-import {Nav} from '../components';
+import {Nav, Midsect} from '../components';
 const Home = () => {
     return(
-    <Nav />
+    <div>
+        <Nav />
+        <Midsect />
+    </div>
+    
+   
     )
 }
 export default Home;

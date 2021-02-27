@@ -1,0 +1,97 @@
+.mid{
+  padding-top: 30em;
+}
+.sect{
+  background-color: #f4f4f4 ;
+}
+.sect h1{
+  color:#008294;
+ padding-left: 1em;
+}
+
+*{margin:0px;padding:0px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;font-family: 'Roboto';}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/* --- Card3 ---- */
+
+.Card3{
+  position: relative;
+  display:inline-block;
+  width: 29em;
+  height: 400px;
+  margin: 4em 1em;
+  overflow: hidden;
+  background: #000;
+  box-shadow: rgba(6, 33, 63, 0.129412) 0px 1px 2px 0px;
+  -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+}
+
+.Card3 img{
+  position: relative;
+  top:5%;
+  left:5%;
+
+  -webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%,-50%);
+  -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+}
+.Card3:hover img{top:30%;opacity: 0.5;}
+
+.Card3 .overlay{
+  position: absolute;
+  bottom:calc(-80% + 50px);
+  left: 0px;
+  width: 100%;
+  height: 80%;
+  background: #FFF;
+  -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+}
+.Card3:hover .overlay{bottom:0px;}
+
+.Card3 .overlay .line{width: 100%;text-align: left;line-height: 50px;padding:0em 1em;}
+.Card3 .overlay .line .content{text-align: left;padding: 1em; }
+
+.read{
+  color: #008294;
+  margin-bottom: 7em;
+  position: absolute;
+  right:0.5em;
+  bottom: 3em; 
+  text-decoration: none;
+  
+}
+.read:after {
+  content: ">";
+  margin-left: 10px;
+  opacity: 0;
+  -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+}
+.read:hover:after {
+  margin-left: 5px;opacity: 1;
+}
+
+@media screen and (max-width: 700px){
+  .Card3{width: 100%;height: auto;margin: 1em 0em;}
+  .Card3:hover img{top:30%;opacity: 0.5;}
+
+  .Card3 .overlay{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+  }
+  .Card3 img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+  -webkit-transform: translate(-50%, 0%);-moz-transform: translate(-50%, 0%);-ms-transform: translate(-50%, 0%);-o-transform: translate(-50%, 0%);transform: translate(-50%,0%);
+  }
+  .Card3:hover .overlay{bottom:0px;}
+  .Card3:hover img{top:50%;opacity: 1;}
+}
