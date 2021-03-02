@@ -8,6 +8,7 @@ const Nav = ()=>{
       <img src={logo} alt="logo" className="logoimg"></img>
       </div>
       <div className="signlog"> 
+      {/* <a href=" "> Donate </a> &nbsp;&nbsp; */}
       <a href=" "> Log in </a> &nbsp;&nbsp;
       <a href=" "> Sign Up</a> 
       </div>

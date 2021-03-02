@@ -1,9 +1,10 @@
-import {Nav, Midsect} from '../components';
+import {Nav, Midsect, Midsectevent} from '../components';
 const Home = () => {
     return(
     <div>
         <Nav />
         <Midsect />
+        <Midsectevent />
     </div>
     
    

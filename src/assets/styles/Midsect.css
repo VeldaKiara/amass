@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .mid{
   padding-top: 30em;
 }
@@ -7,7 +8,28 @@
 .sect h1{
   color:#008294;
  padding-left: 1em;
+ padding-top:1em;
 }
+.sect .other-pages {
+  text-decoration: none;
+  display:flex;
+  float:right;
+  padding-right: 1em;
+  color: #008294;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.other-pages:after {
+  content: ">";
+  margin-left: 10px;
+  opacity: 0;
+  -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+}
+.other-pages:hover:after {
+  margin-left: 5px;opacity: 1;
+}
+
 
 *{margin:0px;padding:0px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;font-family: 'Roboto';}
 .grid-container {
@@ -16,6 +38,7 @@
   padding: 10px;
   grid-column-start: 1;
   grid-column-end: 3;
+  grid-gap: 30px 30px;
 }
 /* --- Card3 ---- */
 
@@ -57,7 +80,7 @@
 
 .read{
   color: #008294;
-  margin-bottom: 7em;
+  margin-bottom: 4em;
   position: absolute;
   right:0.5em;
   bottom: 3em; 
