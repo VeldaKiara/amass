@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.bottom{
+    background-color: #212121;
+}
+/* body {
+    font-family: system-ui;
+    background: #C0CBC0;
+    text-align: center;
+  } */
+  
+  
+  .site-footer {
+    margin-top: 100px; /* Remove */
+      position: relative;
+      background-color:#1A1F24;
+      width: 100%;	
+      bottom: 0; 
+  }
+  
+  .site-footer .container {
+      max-width: 85%;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      padding-top: 20px;
+  }
+  
+  .site-footer .container h1 {
+      font-size: 40px;
+  }
+  
+  .site-footer .container h2 {
+      font-size: 40px;
+      float: right;
+  }
+  
+  .site-footer .grid-container a {
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 16.25px;
+  }
+  
+  .site-footer .grid-item {
+      padding: 10px;
+      color:white;
+  }
+  .site-footer .grid-item :hover{
+      color:#008294;
+  }
+  
+  
+  .site-footer .grid-container .inner-grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      text-align: left;
+  }
+  
+  .site-footer .container hr { 
+      display: block; 
+      height: 1px;
+      border: 0; border-top: 1px solid white;
+      margin: 1px; 
+      padding: 0; 
+  }
+  
+  .site-footer .container p {
+      font-size: 14px;
+      text-align: right;
+      color: white;
+      font-weight: 500;
+  }
+  
+  .site-footer .container .logo-img {
+      width: 180px;
+      height: 140px;
+      cursor: pointer;
+  }
+  
+  .site-footer .grid-container .grid-item .social-buttons {
+      padding-top: 20px;
+  }
+  
+  .site-footer .grid-container .grid-item .social-buttons a {
+      display: inline-flex;
+      text-decoration: none;
+      font-size: 30px;
+      width: 60px;
+      height: 60px;
+      color: #1A1F24;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: 0 8px;
+  }
+  
+  
+  .site-footer .grid-container .grid-item .social-buttons a i{
+      transition: 0.3s ease-in;
+  }
+  
+  .site-footer .grid-container .grid-item .social-buttons a:hover i {
+      background: linear-gradient(45deg,#A2845C,#A2845C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transform: scale(1.5);
+  }
+  
+  .circle-icon {
+      background: white;
+      padding:12px;
+      border-radius: 50%;
+  }
+  
+  
+  
+  /*------------------------------------------------------------------
+  [ Screen Sizes] */
+  
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+  
+      .site-footer {
+          height: 620px;
+          bottom: 0; 
+      }
+  
+      .site-footer .grid-container {
+          display: grid;
+          grid-template-columns: 400px;
+      }
+  
+      .site-footer .grid-container .inner-grid-container {
+          display: grid;
+          grid-template-columns: auto auto ;
+          text-align: left;
+      }
+  
+  
+  }
+  
+  /*========================================================*/
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  
+      .site-footer {
+          height: 260px;
+          bottom: 0;
+      }
+  
+      .site-footer .grid-container {
+          display: grid;
+          grid-template-columns: 350px auto 350px;
+      }
+  
+      .site-footer .grid-container .inner-grid-container{
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          text-align: left;
+      }
+  
+  }
+  
+  
