@@ -1,6 +1,7 @@
 import "../assets/styles/Navbar.css";
 import logo from '../assets/images/logo.png';
 import conference from '../assets/images/conference.svg';
+import { Link} from "react-router-dom";
 const Nav = ()=>{
     return(
       <div> 
@@ -8,9 +9,8 @@ const Nav = ()=>{
       <img src={logo} alt="logo" className="logoimg"></img>
       </div>
       <div className="signlog"> 
-      {/* <a href=" "> Donate </a> &nbsp;&nbsp; */}
-      <a href=" "> Log in </a> &nbsp;&nbsp;
-      <a href=" "> Sign Up</a> 
+      <Link to="/login" className="alink"> Log in </Link> &nbsp;&nbsp;
+      <Link to="/signup"className="alink"> Sign Up</Link> 
       </div>
       <div className="ilustration"> 
       <img src={conference} alt="conference" className="ill-img"></img>
@@ -20,7 +20,7 @@ const Nav = ()=>{
       <h1> Discover tech events </h1> <br/>
       </div>
       <div className="btn">
-      <a href=" " className="btn-btn">Join Amass</a>
+      <Link to="/signup" className="btn-btn">Join Amass</Link>
       </div>
       
       </div>

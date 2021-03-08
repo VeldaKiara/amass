@@ -17,10 +17,9 @@
     font-size: 1em;
     color:black;
     margin-top: 0.05rem;
-    margin-right: 1em;
-    
+    margin-right: 1em;    
 }
-.signlog a{
+.signlog .alink{
     color:black;
     text-decoration: none;
     
@@ -46,6 +45,7 @@
     font-size:20px;
     font-weight:bold;
 }
+
 .btn{
     position:relative;
     display: flex;
@@ -66,7 +66,8 @@
     border-radius:8px;
     padding-top: 9px;
     text-align: center; 
-    text-decoration: none;    
+    text-decoration: none;  
+    
 }
 .btn a:hover{
         display: block;

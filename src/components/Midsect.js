@@ -1,17 +1,17 @@
 import "../assets/styles/Midsect.css";
 import event from '../assets/images/event1.png';
-
+import { Link } from "react-router-dom";
 const Midsect = () =>{
     return(
 <div className="mid"> 
 <div className="sect"> 
 <h1>Communities</h1>
-<a href=" " className="other-pages">More Communities</a>
+<Link to="/communities" className="other-pages">More Communities</Link>
 <div className="grid-container">
 <div className="Card3">
   <img src={event} alt="event"></img>
   <div className="overlay">
-    <div className="line"><h2 className="title">She Code Africa Nairobi</h2></div>
+    <div className="line"><h2 style={{marginTop:"-3em"}}className="title">She Code Africa Nairobi</h2></div>
     <div className="content">
     <p style={{marginLeft:"1em"}}>
       You are always told to code as if the next developer after you is going to be a psycopath
@@ -24,7 +24,7 @@ const Midsect = () =>{
 <div className="Card3">
   <img src={event} alt="event"></img>
   <div className="overlay">
-    <div className="line"><h2 className="title">Google Developer Group Nairobi</h2></div>
+    <div className="line"><h2 style={{marginTop:"-3em"}} className="title">Google Developer Group Nairobi</h2></div>
     <div className="content">
     <p style={{marginLeft:"1em"}}>
       You are always told to code as if the next developer after you is going to be a psycopath
@@ -37,7 +37,7 @@ const Midsect = () =>{
 <div className="Card3">
   <img src={event} alt="event"></img>
   <div className="overlay">
-    <div className="line"><h2 className="title">AnitaBorg Nairobi</h2></div>
+    <div className="line"><h2 style={{marginTop:"-3em"}}className="title">AnitaBorg Nairobi</h2></div>
     <div className="content">
     <p style={{marginLeft:"1em"}}>
       You are always told to code as if the next developer after you is going to be a psycopath
