@@ -2,10 +2,10 @@ import "../assets/styles/Midsectevent.css";
 import {CalendarIcon, LocationIcon} from "@primer/octicons-react";
 const Midsectevent = () =>{
     return(
-<div className="title">
+<div className="title-event">
 <h1> Events </h1>
-<a href=" " className="other-pages"> More Events</a>
-<div className="grid-container">
+<a href=" " className="other-pages-event"> More Events</a>
+<div className="grid-container2">
 <div className="Card2 ">
 <div className="overlay">
 <h2 className="title">Hello Python Bootcamp</h2>

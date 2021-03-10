@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 .logoimg{
     position:relative; 
     display: flex;
@@ -78,5 +79,22 @@
         box-shadow: 0 5px 15px crimson;
         transition: 0.5s;
 }
+@media (max-width: 600px){
+.signlog{
+margin-top:1em;
+    }
+.ill-img{
+    width:65%;
+    margin-right:1em;
+    margin-top:-13em;
+    }
+.belowl{
+    margin-top:-19em;
+    margin-left:-1em;
+}
+.btn{
+    margin-top:-21em;
+    margin-left:2.5em;
+} 
 
- 
+}
