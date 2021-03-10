@@ -138,6 +138,9 @@
           grid-template-columns: auto auto ;
           text-align: left;
       }
+      .site-footer .grid-container .grid-item .social-buttons a {
+          padding-right:1em;
+      }
   
   
   }
