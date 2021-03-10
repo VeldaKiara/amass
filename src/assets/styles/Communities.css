@@ -128,6 +128,14 @@
   }
   .Card3:hover .overlay{bottom:0px;}
   .Card3:hover img{top:50%;opacity: 1;}
-  .Card3 .overlay .line .title-comm .content{margin-bottom:-10em;}
+  .Card3 .overlay .line  .title-comm {
+     padding-top:0.1em;
+  }
+  .read{
+    margin:-25px;
+    margin-right:1px;
+
+  }
+ 
 
 }
