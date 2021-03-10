@@ -149,5 +149,16 @@
   }
 .Card3-mid:hover .overlay-mid{bottom:0px;}
 .Card3-mid:hover img{top:50%;opacity: 1;}
-.Card3-mid .overlay-mid .line h2{padding-top:-3em;}
+.Card3-mid .overlay-mid .line  .title {
+  padding-top:0.1em;
+}
+.read{
+ margin:-25px;
+ margin-right:1px;
+
+}
   }
+
+ 
+ 
+
