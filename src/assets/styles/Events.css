@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.title-event-page{
+    padding-top:1em;
+}
+.title-event-page h1{
+    color:#008294;
+    padding-left: 1em;
+}
+.grid-container2-event-page {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top:1em;  
+}
+.Card2-event-page{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 2em;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+}
+.Card2-event-page .textinevent-event-page{
+       color:black;
+       margin-left:1.5em;
+       margin-top:2em;
+   }
+.Card2-event-page .icon-event-page{
+       display: flex;
+       float: left;
+       margin-top:1.5em;
+}
+.Card2-event-page .txt-event-page{
+       padding-left: 2.5em;
+       margin-top:1.5em;
+}
+    
+.Card2-event-page .overlay-event-page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 1em;
+    top: 0;
+    z-index: 10;
+    color: #fff;
+    -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+  }
+  
+.Card2-event-page .overlay-event-page h2{
+    position: relative;
+    margin: 2em 0px;
+    top: -200px;
+    -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+  }
+  
+.Card2-event-page .overlay-event-page .link-event-page{
+    position: relative;
+    width: 60%;
+    top: 200px;
+    padding: 0.5em 2em;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color:#FFFFFF;
+    border-radius: 3px;
+    -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+  }
+.Card2-event-page .link-event-page:hover{background: #fff;color:#5c5c5c;}
+  
+.Card2-event-page:hover .overlay-event-page{background: rgba(92, 92, 92, 0.8);}
+.Card2-event-page:hover h2{top: 0px;}
+.Card2-event-page:hover .link-event-page{top: 0px;}
+
+@media screen and (max-width: 600px){
+
+  /* --- Card2 ---- */
+.grid-container2-event-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top:3em;  
+    margin-right:2em;
+    margin-left:1em;
+    
+  }
+.Card2-event-page{
+    position: relative;
+    display:block;
+    width: 100%;
+    height: 300px;
+    margin: 3em 0em;
+    border-radius: 0px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+.Card2-event-page .overlay-event-page .link-event-page{
+   position: absolute;
+   color:white;
+   margin-top:4em;
+   
+  }
+
+}

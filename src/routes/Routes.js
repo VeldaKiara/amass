@@ -4,7 +4,7 @@ import{
     Route,
     // Switch,
 } from "react-router-dom";
-import {Home, Login, Signup, Communities} from "../pages";
+import {Home, Login, Signup, Communities, Events} from "../pages";
 
 const Routes = () => {
     return(
@@ -13,6 +13,7 @@ const Routes = () => {
       <Route exact path="/login" component={Login} />
       <Route exact path="/signup" component={Signup} />
       <Route exact path="/communities" component={Communities} />
+      <Route exact path="/events" component={Events} />
     </Router>
     );
 };

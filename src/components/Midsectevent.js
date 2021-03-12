@@ -1,10 +1,11 @@
 import "../assets/styles/Midsectevent.css";
 import {CalendarIcon, LocationIcon} from "@primer/octicons-react";
+import { Link } from "react-router-dom";
 const Midsectevent = () =>{
     return(
 <div className="title-event">
 <h1> Events </h1>
-<a href=" " className="other-pages-event"> More Events</a>
+<Link  to="/events" className="other-pages-event"> More Events</Link>
 <div className="grid-container2">
 <div className="Card2 ">
 <div className="overlay">
