@@ -128,12 +128,13 @@
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
     overflow: hidden;
   }
-  /* .Card2 .overlay .link{
+  .Card2 .overlay .link{
    position: absolute;
-   color:blue;
+   color:white;
    margin-top:4em;
    
-  } */
+  }
+  
   
   
 
