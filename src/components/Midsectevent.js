@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 const Midsectevent = () =>{
     return(
 <div className="title-event">
-<h1> Events </h1>
-<Link  to="/events" className="other-pages-event"> More Events</Link>
+  <div className="header-linked">
+    <h1> Events </h1>
+    <Link  to="/events" className="other-pages-event"> More Events</Link>
+  </div>
 <div className="grid-container2">
 <div className="Card2 ">
 <div className="overlay">

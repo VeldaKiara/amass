@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.bottom{
+/* .bottom{
     background-color: #212121;
+    width: 100%;
    
     
-}
+} */
 /* body {
     font-family: system-ui;
     background: #C0CBC0;
@@ -12,9 +13,10 @@
   
   
   .site-footer {
-    margin-top: 100px; /* Remove */
+    /* margin-top: 100px; Remove */
       position: relative;
-      background-color:#1A1F24;
+      /* background-color:#1A1F24; */
+      background-color: #212121;
       width: 100%;	
       bottom: 0; 
   }
@@ -122,10 +124,12 @@
   
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-  
+      .bottom{ width:100%;}
       .site-footer {
-          height: 620px;
+          height: 600px;
           bottom: 0; 
+          width: 100%;
+          overflow: hidden;
       }
   
       .site-footer .grid-container {

@@ -4,15 +4,27 @@ import conference from '../assets/images/conference.svg';
 import { Link} from "react-router-dom";
 const Nav = ()=>{
     return(
-      <div> 
-      <div className="logo"> 
-      <img src={logo} alt="logo" className="logoimg"></img>
+  <div> 
+      <div className="navbar-nav"> 
+      <div className="logo-nav">
+      <img src={logo} alt="logo" className="logo-nav"></img>
       </div>
-      <div className="signlog"> 
-      <Link to="/login" className="alink"> Log in </Link> &nbsp;&nbsp;
-      <Link to="/signup"className="alink"> Sign Up</Link> 
+      <ul className="signlog"> 
+      <li><Link to="/login" className="alink"> Log in </Link></li> &nbsp;&nbsp;
+      <li><Link to="/signup"  className="alink"> Sign Up</Link></li>
+      </ul>
       </div>
-      <div className="ilustration"> 
+      
+      <div className="header"> 
+      <div className="col left-col">
+          <h1>Discover tech events</h1> &nbsp;
+          <Link to="/signup" className="btn-btn">Join Amass</Link>
+          </div>
+      <div className="col">
+            <img src={conference} alt="conference" className="ill-img"></img>
+        </div>
+        </div>
+      {/* <div className="ilustration"> 
       <img src={conference} alt="conference" className="ill-img"></img>
       </div> 
       <br/>
@@ -22,9 +34,10 @@ const Nav = ()=>{
       <div className="btn">
       <Link to="/signup" className="btn-btn">Join Amass</Link>
       </div>
-      
+       */}
       </div>
     )
 }
+
 
 export default Nav;

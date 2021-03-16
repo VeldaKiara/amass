@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            min-height: 40px;
+            border-bottom: 1px solid whitesmoke;
+            align-items: center;
+            /*padding: 10px;*/
+        }
+
+        .navbar .logo{
+            width: 34px;
+        }
+
+        .navbar .links{
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        .navbar .links li{
+            display: inline-block;
+            
+        }
+
+        .header{
+            width: 100%;
+            min-height: 50vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .header .col{
+            flex-basis: 100%;
+            flex: 1;
+        }
+
+        .header .col.left-col{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (max-width: 600px) {
+
+        }
+
+        .next-part{
+            width: 100%;
+            min-height: 120px;
+            background: lightgray;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img class="logo" src="https://i.pinimg.com/originals/72/a3/d9/72a3d9408d41335f39e9f014dc35cf44.jpg" alt="">
+        </div>
+        <ul class="links">
+            <li><a href="">Login</a></li>
+            <li><a href="">Signup</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <div class="col left-col">
+            <h1>The future is screwed up!</h1>
+            <button>Get started</button>
+        </div>
+        <div class="col">
+            <img class="logo" src="https://images.unsplash.com/photo-1585399000684-d2f72660f092?ixid=MXwxMjA3fDF8MHxzZWFyY2h8MXx8ZW1haWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="">
+        </div>
+    </div>
+
+    <div class="next-part">
+
+    </div>
+
+</body>
+</html>
