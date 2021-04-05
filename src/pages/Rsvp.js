@@ -5,7 +5,7 @@ const Rsvp = () =>{
 <div class="mainContainer">
   <div class="cardHolder">
     <div class="header">
-      <div class="heading center">CHECKOUT</div>
+      <div class="heading center">RSVP</div>
       {/* <div class="stepHeading center">Payment Method</div> */}
       <div class="card">
         <div class="top part">
@@ -34,9 +34,10 @@ const Rsvp = () =>{
     </div>
   </div>
   <div class="status vcenter"> <i class="fa fa-check" aria-hidden="true"></i>
-    Option : Credit/Debit Card
+    Option : M-Pesa(mobile money)
   </div>
-  <h5 class="center">OTHER PAYMENT OPTIONS</h5>
+  
+  {/* <h5 class="center">OTHER PAYMENT OPTIONS</h5>
   <div class="options vcenter">
     <div class="opt">
       <div class="icon center">
@@ -56,13 +57,13 @@ const Rsvp = () =>{
       </div>
       <div class="optname center">E-Wallet</div>
     </div>
-  </div>
+  </div> */}
   <div class="payment vcenter">
     <div class="amount">
       <div class="infoheader vcenter">Total Amount</div>
-      <div class="infocontent val vcenter">$ 1,960</div>
+      <div class="infocontent val vcenter">ksh 1</div>
     </div>
-    <div class="button center">PAY</div>
+    <div class="button center">checkout</div>
   </div>
 </div>
 

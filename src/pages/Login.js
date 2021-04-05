@@ -10,6 +10,8 @@ const Login =()=>{
       <input type="password" placeholder="password"/>
       <button>login</button>
       <p className="message">Not registered? <Link to="/signup">Create an account</Link></p>
+      <p className="message">Forgot password? <Link to="/forgotpwd">Forgot password</Link></p>
+
     </form>
   </div>
 </div>

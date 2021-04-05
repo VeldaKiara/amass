@@ -4,3 +4,4 @@ export {default as Signup} from './Signup';
 export {default as Communities} from './Communities';
 export{default as Events} from './Events';
 export {default as Rsvp} from './Rsvp';
+export{default as Forgotpwd} from './Forgotpwd';
