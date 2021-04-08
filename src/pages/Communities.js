@@ -17,7 +17,7 @@ const Communities = () =>{
        You are always told to code as if the next developer after you is going to be a psycopath
          that knows where you live. <br/> We aim to promote readable and better code.<br/>Join our community and learn, network and most of all, have fun.            
      </p>
-     <a href=" " className="read">Join Us</a>
+     <Link to="/joinus" className="read">Join Us</Link>
      </div>
    </div>
  </div>
@@ -31,7 +31,7 @@ const Communities = () =>{
        You are always told to code as if the next developer after you is going to be a psycopath
          that knows where you live. <br/> We aim to promote readable and better code.<br/>Join our community and learn, network and most of all, have fun.            
      </p>
-     <a href=" " className="read">Join Us</a>
+     <Link to="/joinus" className="read">Join Us</Link>
     </div>
    </div>
  </div>
@@ -45,7 +45,7 @@ const Communities = () =>{
        You are always told to code as if the next developer after you is going to be a psycopath
          that knows where you live. <br/> We aim to promote readable and better code.<br/>Join our community and learn, network and most of all, have fun.            
          </p>
-         <a href=" " className="read">Join Us</a>
+         <Link to="/joinus" className="read">Join Us</Link>
      </div>
    </div>
  </div>
@@ -58,7 +58,7 @@ const Communities = () =>{
        You are always told to code as if the next developer after you is going to be a psycopath
          that knows where you live. <br/> We aim to promote readable and better code.<br/>Join our community and learn, network and most of all, have fun.            
      </p>
-     <a href=" " className="read">Join Us</a>
+     <Link to="/joinus" className="read">Join Us</Link>
      </div>
    </div>
  </div>
@@ -72,7 +72,7 @@ const Communities = () =>{
        You are always told to code as if the next developer after you is going to be a psycopath
          that knows where you live. <br/> We aim to promote readable and better code.<br/>Join our community and learn, network and most of all, have fun.            
      </p>
-     <a href=" " className="read">Join Us</a>
+     <Link to="/joinus" className="read">Join Us</Link>
     </div>
    </div>
  </div>
@@ -86,7 +86,7 @@ const Communities = () =>{
        You are always told to code as if the next developer after you is going to be a psycopath
          that knows where you live. <br/> We aim to promote readable and better code.<br/>Join our community and learn, network and most of all, have fun.            
          </p>
-         <a href=" " className="read">Join Us</a>
+         <Link to="/joinus" className="read">Join Us</Link>
      </div>
    </div>
  </div>
@@ -99,7 +99,7 @@ const Communities = () =>{
        You are always told to code as if the next developer after you is going to be a psycopath
          that knows where you live. <br/> We aim to promote readable and better code.<br/>Join our community and learn, network and most of all, have fun.            
      </p>
-     <a href=" " className="read">Join Us</a>
+     <Link to="/joinus" className="read">Join Us</Link>
      </div>
    </div>
  </div>
@@ -113,7 +113,7 @@ const Communities = () =>{
        You are always told to code as if the next developer after you is going to be a psycopath
          that knows where you live. <br/> We aim to promote readable and better code.<br/>Join our community and learn, network and most of all, have fun.            
      </p>
-     <a href=" " className="read">Join Us</a>
+     <Link to="/joinus" className="read">Join Us</Link>
     </div>
    </div>
  </div>
@@ -127,7 +127,7 @@ const Communities = () =>{
        You are always told to code as if the next developer after you is going to be a psycopath
          that knows where you live. <br/> We aim to promote readable and better code.<br/>Join our community and learn, network and most of all, have fun.            
          </p>
-         <a href=" " className="read">Join Us</a>
+         <Link to="/joinus" className="read">Join Us</Link>
      </div>
    </div>
  </div>
