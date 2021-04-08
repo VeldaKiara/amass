@@ -1,210 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-/* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
-  } */
-  /* body{
-    background:#ecf0f1
-  } */
-  
-  .mainContainer {
-    width: 350px;
-    height: 590px;
-    margin: 0 auto;
-    box-shadow:0 0 15px #2323;
-    margin-top: 50px;
-    background:white;
-    box-sizing: border-box;
-   
-  }
-  .cardHolder {
-    height: 300px;
-    background: linear-gradient(
-      to right,
-      #008294,
-      #007585,
-      #006876
-    ); 
-    /* border-bottom-left-radius:50%;
-    border-bottom-right-radius:50%; */
-  }
-  .center{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .vcenter{
-    display:flex;
-    align-items:center;
-  }
-  .heading{
-    height:40px;
-    font-size:14px;
-    letter-spacing:2px;
-    color:white;
-  }
-  .stepHeading{
-    height:20px;
-    font-size:16px;
-    font-weight:bolder;
-    letter-spacing:2px;
-    color:white;
-  }
-  .card{
-    height:180px;
-    width:280px;
-    background:white;
-    margin:0 auto;
-    border-radius:1.2em;
-    margin-top:25px;
-    padding:12px 20px;
-  }
-  .card > .part{
-    height:50px;
-    margin-bottom:4px;
-  }
-  .card > .top{
-    display:flex;
-    justify-content:flex-end;
-  }
-  .card > .top > img{
-    height:48px;
-  }
-  .infoheader{
-    height:20px;
-    font-size:11px;
-    font-weight:bold;
-    letter-spacing:2px;
-    color:#95a5a6
-  }
-  .card > .middle > .infocontent{
-    justify-content:space-between;
-    height:30px;
-  }
-  .number{
-    width:150px;
-  }
-  .card > .middle > .infocontent > .num{
-    height:25px;
-    font-size:14px;
-    letter-spacing:2px;
-    font-weight:bolder;
-  }
-  .card > .bottom{
-    display:flex;
-    justify-content:space-between
-  }
-  .holderInfo{
-    width:150px;
-  }
-  .holderInfo > .name,.expDate > .date{
-    font-size:12px;
-    font-weight:bolder;
-    letter-spacing:2px;
-  }
-  .status{
-    height:35px;
-    width:300px;
-    margin:0 auto;
-    box-shadow:0 0 10px #2323; 
-    margin-top:16px;
-    padding:0 16px;
-    font-size:12px;
-    letter-spacing:2px;
-    font-weight:bolder;
-  }
-  .status > i{
-    color:#16a085;
-    margin-right:20px;
-    font-size:16px;
-  }
-  h5{
-    width:220px;
-    margin:0 auto;
-    padding:8px;
-    margin-top:14px;
-    border-bottom:2px solid #bdc3c7;
-    letter-spacing:2px;
-    font-size:12px;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom:12px;
-  }
-  .options{
-    width:250px;
-    height:75px;
-    margin:0 auto;
-    justify-content:space-between;
-  }
-  .options > .opt{
-    height:75px;
-    width:75px;
-    box-shadow:0 0 10px #2323; 
-    border-radius:5px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-  }
-  .options > .opt > .icon{
-    height:30px;
-    color:#95a5a6;
-    font-size:20px;
-  }
-  .optname{
-    height:30px;
-    font-size:10px;
-    color:#232323;
-    letter-spacing:2px;
-    font-weight:bolder
-  }
-  .payment{
-    height:80px;
-    position:relative;
-    top: 24px;
-    box-shadow: 0 -5px 5px -5px #2323;
-    justify-content:space-around;
-  }
-  .val{
-    height:40px;
-    font-size:24px;
-    font-weight:bolder;
-    letter-spacing:2px;
-    color: #008294;
-  }
-  .button{
-    width:120px;
-    height:35px;
-    border-radius:1.2em;
-    background:linear-gradient(
-      to right,
-      #008294,
-      #007585,
-      #006876
-    ); 
-    color:white;
-    font-weight:bolder;
-    letter-spacing:2px;
-  }
-  .card .form {
-    position: relative;
-    z-index: 1;
-    background: #FFFFFF;
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 45px;
-    text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  }
-  .card .form input {
-    font-family: "Roboto", sans-serif;
-    outline: 0;
-    background: #f2f2f2;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 14px;
-  }
+
+.rsvp-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.rsvp-form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.rsvp-form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.rsvp-form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #008294;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.rsvp-form button:hover,.form button:active,.form button:focus {
+  background: #008294;
+}
+.rsvp-form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.rsvp-form .message a {
+  color: #008294;
+  text-decoration: none;
+}
+.rsvp-form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
