@@ -30,9 +30,9 @@ const Midsect = () => {
                   Join our community and learn, network and most of all, have
                   fun.
                 </p>
-                <a href=" " className="read">
+                <Link  className="read" to="communities">
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -53,9 +53,9 @@ const Midsect = () => {
                   Join our community and learn, network and most of all, have
                   fun.
                 </p>
-                <a href=" " className="read">
+                <Link to="/communities" className="read">
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -77,9 +77,9 @@ const Midsect = () => {
                   Join our community and learn, network and most of all, have
                   fun.
                 </p>
-                <a href=" " className="read">
+                <Link to="/communities" className="read">
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
