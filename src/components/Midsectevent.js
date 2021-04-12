@@ -19,7 +19,7 @@ const Midsectevent = () =>{
 <h3>Hello Python Bootcamp</h3> 
 <p className="p">by She Code Africa Nairobi</p><br/>
 <div className="label">
-<span class="label success">Free</span>
+<span className="label success">Free</span>
 </div>
 <CalendarIcon size={24} className="icon"/><p className="txt">22 - 24 April 2021 <br/> 11am to 2 pm</p> <br/>
 <LocationIcon size={24} className="icon" /> <p className="txt">Conference Hall <br/> Good place, Pritt road</p>
@@ -36,7 +36,7 @@ const Midsectevent = () =>{
 <h3>Weekly Code Meet</h3> 
 <p className="p">by Python Developers Nairobi</p><br/>
 <div className="label">
-<span class="label danger">Ksh 1 </span>
+<span className="label danger">Ksh 1 </span>
 </div>
 <CalendarIcon size={24} className="icon"/><p className="txt">22 - 24 April 2021 <br/> 11am to 2 pm</p><br/>
 <LocationIcon size={24} className="icon" /> <p className="txt">Ihub <br/> Senteu Plaza </p>
@@ -53,7 +53,7 @@ const Midsectevent = () =>{
 <h3>Design Fair</h3> 
 <p className="p">by AnitaBorg Nairobi</p><br/>
 <div className="label">
-<span class="label success">Free</span>
+<span className="label success">Free</span>
 </div>
 <CalendarIcon size={24} className="icon"/><p className="txt">22 - 24 April 2021 <br/> 11am to 2 pm </p><br/>
 <LocationIcon size={24} className="icon" /> <p className="txt">Radisson Blu <br/> Upper Hill</p>
@@ -70,7 +70,7 @@ const Midsectevent = () =>{
 <h3>Data Structures Interview Prep</h3> 
 <p className="p">by Open Source Africa Nairobi</p><br/>
 <div className="label">
-<span class="label danger">Ksh 1 </span>
+<span className="label danger">Ksh 1 </span>
 </div>
 <CalendarIcon size={24} className="icon"/><p className="txt">22 - 24 April 2021 <br/> 11am to 2 pm </p> <br/>
 <LocationIcon size={24} className="icon" /> <p className="txt">IHIT <br/> Kilimani </p>
