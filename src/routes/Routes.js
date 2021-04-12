@@ -4,7 +4,7 @@ import{
     Route,
     // Switch,
 } from "react-router-dom";
-import {Home, Login, Signup, Communities, Events, Rsvp, Forgotpwd, Joinus} from "../pages";
+import {Home, Login, Signup, Communities, Events, Rsvp, Forgotpwd, Joinus, Dashboard} from "../pages";
 
 const Routes = () => {
     return(
@@ -17,6 +17,7 @@ const Routes = () => {
       <Route exact path="/rsvp" component={Rsvp} />
       <Route exact path="/forgotpwd" component={Forgotpwd} />
       <Route exact path="/joinus" component={Joinus} />
+      <Route exact path="/dashboard" component={Dashboard} />
     </Router>
     );
 };
