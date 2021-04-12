@@ -1,5 +1,5 @@
 import "../assets/styles/Forgotpwd.css";
-import { Link } from "react-router-dom";
+
 const Forgotpwd =()=>{
     return(
 

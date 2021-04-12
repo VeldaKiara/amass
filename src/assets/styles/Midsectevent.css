@@ -55,10 +55,14 @@
        margin-left:1.5em;
        margin-top:2em;
    }
+   .Card2 .textinevent .p{ 
+     color:#008294;
+   }
    .Card2 .icon{
        display: flex;
        float: left;
        margin-top:1.5em;
+       color: #008294;
       
     }
     .Card2 .txt{
@@ -95,7 +99,7 @@
     border-radius: 3px;
     -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
   }
-  .Card2 .link:hover{background: #fff;color:#5c5c5c;}
+  .Card2 .link:hover{background: #008294;color:white;}
   
   .Card2:hover .overlay{background: rgba(92, 92, 92, 0.8);}
   .Card2:hover h2{top: 0px;}

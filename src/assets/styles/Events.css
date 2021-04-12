@@ -33,7 +33,22 @@
    }
 
 .Card2-event-page .textinevent-event-page .p{
-  color:#008294
+  color:#008294;
+}
+.Card2-event-page .textinevent-event-page .label{
+    color:white;  
+}
+.label .success{
+  background-color: #4CAF50;
+  padding:0.5em;
+  display:flex;
+  float:right;
+}
+.label .danger{
+  background-color:#ff9800;
+  padding:0.5em;
+  display:flex;
+  float:right;
 }
 
 .Card2-event-page .icon-event-page{
@@ -56,10 +71,7 @@
   border-radius: 5%;
   float: right;
   margin-right: 2rem;
-  margin-top: 1em;
-
-  
- 
+  margin-top: 1em;   
 }
 
     
