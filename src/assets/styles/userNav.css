@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 40px;
+    align-items: center;   
+}
+.navbar-nav .logo-nav{
+    width: 6em;
+}
+.navbar-nav .signlog{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color:black;
+}
+.navbar-nav .signlog li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;  
+}
+.navbar-nav .signlog .plusicon{
+     display:flex;
+     float: right;
+     margin-right:-5em;
+     margin-bottom: 1em;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     text-decoration: none;
+}
+.navbar-nav .signlog .alink{
+    margin-top: -0.05rem;
+    color:black;
+    text-decoration: none;    
+}
+.navbar-nav .signlog .avatar {
+    display:flex;
+    float: right;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+   }
+
+
+.header{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header .col{
+    flex-basis: 100%;
+    flex: 1;
+}
+.header .col.left-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col .ill-img{
+    position:relative;
+    display: flex;
+    float: right;
+    height: auto;
+    width:100%; 
+}  
+
+
+
+/*
+.belowl{
+    position:relative;
+    display: flex;
+    float:left;
+    padding-top: 8em;
+    padding-left:3em;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    font-weight:bold;
+} 
+*/
+
+/* .btn{
+    position:relative;
+    display: flex;
+    float:left;
+    padding-top: 15em;
+    margin-left:-23.5em; 
+    
+} */
+.btn-btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    background-color: #ff1154;
+    color: #FFFFFF;
+    border: 2px solid #ff1154;
+    width:9.5em;
+    height:3em;
+    border-radius:8px;
+    padding-top: 9px;
+    text-align: center; 
+    text-decoration: none;  
+    padding-bottom:0.9em;
+    
+}
+.btn-btn:hover{
+        display: block;
+        text-align: center;
+        border: 2px solid#ff1154;
+        outline: none;
+        border-radius:  24px;
+        box-shadow: 0 5px 15px crimson;
+        transition: 0.5s;
+}
+
+@media (max-width: 600px) {
+.header{
+    width: 100%;
+}
+.header .col{
+    flex: 1 auto !important;
+}
+.ill-img{
+    height:auto;
+    width:100%; 
+
+}
+}

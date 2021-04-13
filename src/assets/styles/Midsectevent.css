@@ -147,9 +147,9 @@
   .Card2 .overlay .link{
    position: absolute;
    color:white;
-   margin-top:4em;
-   
+   margin-top:4em; 
   }
+  
   .title-event h1{
     font-size:1em ;
   }
