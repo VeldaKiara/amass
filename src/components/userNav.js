@@ -11,7 +11,7 @@ const UserNav= ()=>{
       <img src={logo} alt="logo" className="logo-nav"></img>
       </div>
       <ul className="signlog"> 
-      <li><Link to ="/"><PlusIcon size={24} className="plusicon"/></Link></li>
+      <li><Link to ="/createvents"><PlusIcon size={24} className="plusicon"/></Link></li>
       <li>Create Event</li>&nbsp;&nbsp;
       <li> <img src={avatar} alt="avatar" className="avatar"></img> </li>
       

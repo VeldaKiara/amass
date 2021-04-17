@@ -7,3 +7,4 @@ export {default as Rsvp} from './Rsvp';
 export{default as Forgotpwd} from './Forgotpwd';
 export{default as Joinus} from './Joinus';
 export {default as Dashboard} from './Dashboard';
+export {default as Createvents} from './Createvents';

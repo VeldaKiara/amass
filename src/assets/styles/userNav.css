@@ -30,6 +30,7 @@
      height: 50px;
      border-radius: 50%;
      text-decoration: none;
+     color:black;
 }
 .navbar-nav .signlog .alink{
     margin-top: -0.05rem;

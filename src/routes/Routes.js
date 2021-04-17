@@ -4,7 +4,7 @@ import{
     Route,
     // Switch,
 } from "react-router-dom";
-import {Home, Login, Signup, Communities, Events, Rsvp, Forgotpwd, Joinus, Dashboard} from "../pages";
+import {Home, Login, Signup, Communities, Events, Rsvp, Forgotpwd, Joinus, Dashboard, Createvents} from "../pages";
 
 const Routes = () => {
     return(
@@ -18,6 +18,7 @@ const Routes = () => {
       <Route exact path="/forgotpwd" component={Forgotpwd} />
       <Route exact path="/joinus" component={Joinus} />
       <Route exact path="/dashboard" component={Dashboard} />
+      <Route exact path="/createvents" component={Createvents} />
     </Router>
     );
 };
