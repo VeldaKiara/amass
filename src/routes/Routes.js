@@ -14,11 +14,12 @@ const Routes = () => {
       <Route exact path="/signup" component={Signup} />
       <Route exact path="/communities" component={Communities} />
       <Route exact path="/events" component={Events} />
-      <Route exact path="/rsvp" component={Rsvp} />
+      <Route exact path="/rsvp/:id" component={Rsvp} />
       <Route exact path="/forgotpwd" component={Forgotpwd} />
       <Route exact path="/joinus" component={Joinus} />
       <Route exact path="/dashboard" component={Dashboard} />
       <Route exact path="/createvents" component={Createvents} />
+
     </Router>
     );
 };

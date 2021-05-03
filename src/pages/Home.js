@@ -1,8 +1,17 @@
 import {Nav, Midsect, Midsectevent, Footer} from '../components';
-const Home = () => {
+import { withRouter} from "react-router-dom";
+import { connect } from 'react-redux';
+const mapStateToProps = (state) => {
+    console.log(state.user.token)
+    return {
+      v:state.user.token
+    }
+  }
+const Home = (props) => {
     return(
     <div>
-        <Nav />
+        
+        <Nav tok={props.v}/>
         <Midsect />
         <Midsectevent />
         <Footer />
@@ -11,4 +20,5 @@ const Home = () => {
    
     )
 }
-export default Home;
+// export default Home;
+export default connect(mapStateToProps)(withRouter(Home));
