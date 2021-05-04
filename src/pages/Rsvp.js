@@ -1,10 +1,13 @@
 import "../assets/styles/Rsvp.css";
-import rsvp from '../api/auth';
 import { useState } from 'react';
 import {rsvpApi} from '../api/auth'
+
+import { useHistory } from "react-router-dom";
+
 const Rsvp = (props) =>{
 const [tel, setTel] = useState("")
 const [number,setNumber] = useState("")
+const history = useHistory();
 
 const changeTel = event => {
     setTel(event.target.value)
@@ -14,13 +17,15 @@ const changeTel = event => {
   }
   const doRsvp = event => {
       rsvpApi({phone_number:tel, number:number, events:props.match.params.id}, callb=>{
-        if (callb.status === true){
-            
-            // history.push('/dashboard')
+        if (callb.status === "success"){
+           
+          alert("You're going to this event")
+          history.push('/events')   
+
 
           }
           else{
-            alert("error")
+            console.log(callb)
           }  
       })
   }

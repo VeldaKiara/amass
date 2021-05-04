@@ -54,7 +54,7 @@ const Createvents = (props) => {
         },
         result => {
           console.log(result)
-          if (result.status =='success'){
+          if (result.status ==='success'){
             console.log("Hi")
             history.push('/events')
 

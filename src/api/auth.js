@@ -23,8 +23,8 @@ export const eventCreation = (token,params, callback)=>{
     .then(result=>{
         callback({status:'success', result:result.data})
     })
-    .catch(errors=>{
-        // callback({status:'fail', errors:'error'})
+    .catch(errors =>{
+        callback({status:'fail', errors:errors})
     })
 
 }

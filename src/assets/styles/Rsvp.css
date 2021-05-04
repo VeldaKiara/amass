@@ -45,6 +45,9 @@
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
+  padding-top: 1em;
+ 
+  
 }
 .rsvp-form button:hover,.form button:active,.form button:focus {
   background: #008294;
