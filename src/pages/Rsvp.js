@@ -16,7 +16,7 @@ const changeTel = event => {
     setNumber(event.target.value)
   }
   const doRsvp = event => {
-      rsvpApi({phone_number:tel, number:number, events:props.match.params.id}, callb=>{
+      rsvpApi({phone_number:tel, events:props.match.params.id,number:number}, callb=>{
         if (callb.status === "success"){
            
           alert("You're going to this event")
@@ -35,9 +35,11 @@ const changeTel = event => {
 <div className="rsvp-form">
 <form className="login-form">
      {/* <input type="text" placeholder="name"/>
-      <input type="text" placeholder="email address"/> */}
-      <input type="tel"  value={tel}placeholder="+254 712-345-678" pattern="+254 [0-9]{3}-[0-9]{3}-[0-9]{3}" required onChange={changeTel} />
-      <input type="number" value={number}className="quantity" placeholder='tickets' min="1" max="10" onChange={changeNumber} ></input>
+      <input type="text" placeholder="email address"/> */}     
+      <input name='event_id' value={props.match.params.id} type="hidden"/>
+
+      <input type="tel"  value={tel} placeholder="+254 712-345-678" pattern="+254 [0-9]{3}-[0-9]{3}-[0-9]{3}" required onChange={changeTel} />
+      <input type="number" value={number} className="quantity" placeholder='tickets' min="1" max="10" onChange={changeNumber} ></input>
 
       <button onClick={doRsvp} type="button">RSVP</button>
     </form>
