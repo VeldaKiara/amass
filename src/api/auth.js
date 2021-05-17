@@ -15,9 +15,9 @@ export const doLogin = (params,cb) =>{
     })
 
 }
-export const doSignup = (params,cb,email) =>{
+export const doSignup = (params,cb) =>{
 
-    axios.post(`${baseUrl}/api/token/`, params,email)
+    axios.post(`${baseUrl}/api/customuser/`, params)
     .then(res=>{
         cb({status:true, result:res.data})
     })
