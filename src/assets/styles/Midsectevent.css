@@ -73,13 +73,33 @@
   display:flex;
   float:right;
 }
-   .Card2 .icon{
+   /* .Card2 .icon-event-page{
        display: flex;
        float: left;
        margin-top:1.5em;
        color: #008294;
       
-    }
+    } */
+
+.Card2 .icon-event-page{
+      display: flex;
+      float: left;
+      margin-top:1em;
+      color: #008294;
+      
+}
+.Card2 .icon-event-page-time{
+ display: flex;
+ float: left;
+ margin-top:3.1em;
+ color: #008294;
+ margin-left: -1.5em;
+}
+.Card2 .txt-event-page{
+      padding-left: 2.5em;
+      margin-top:1em;
+      
+}
     .Card2 .txt{
        padding-left: 2.5em;
        margin-top:1.5em;

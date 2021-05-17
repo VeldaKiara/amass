@@ -27,7 +27,7 @@ const Events = () =>{
 
 {events.map((value, index) => {
   // time
-        const tzzs=Intl.DateTimeFormat().resolvedOptions().timeZone
+        const timez=Intl.DateTimeFormat().resolvedOptions().timeZone
   return (
     <div className="Card2-event-page ">
       <div className="textinevent-event-page">
@@ -39,12 +39,12 @@ const Events = () =>{
         
         
         <CalendarIcon size={24} className="icon-event-page"/> <br/>&nbsp;&nbsp;&nbsp;
-        <Moment className="datetime" format="Do MMMM YYYY" tz={tzzs}>
+        <Moment className="datetime" format="Do MMMM YYYY" tz={timez}>
           {value.event_time}
           </Moment> 
           <ClockIcon size={24} className="icon-event-page-time"/> <br/>
           <p className="txt-event-page"> <br/>
-          <Moment className="datetime" format="h:mm a" tz={tzzs}> 
+          <Moment className="datetime" format="h:mm a" tz={timez}> 
            {value.event_time}
           </Moment>
           </p>

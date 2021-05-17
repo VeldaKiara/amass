@@ -1,9 +1,12 @@
 import axios from 'axios';
 
+let baseUrl = "http://54.175.235.38"
+// let baseUrl = "http://127.0.0.1:8000"
+
 
 export const doLogin = (params,cb) =>{
 
-    axios.post("http://127.0.0.1:8000/api/token/", params)
+    axios.post(`${baseUrl}/api/token/`, params)
     .then(res=>{
         cb({status:true, result:res.data})
     })
@@ -19,7 +22,7 @@ export const eventCreation = (token,params, callback)=>{
         headers: { Authorization: `Bearer ${token}` }
     };
 
-    axios.post("http://127.0.0.1:8000/api/events/", params,config)
+    axios.post(`${baseUrl}/api/events/`, params,config)
     .then(result=>{
         callback({status:'success', result:result.data})
     })
@@ -29,7 +32,7 @@ export const eventCreation = (token,params, callback)=>{
 
 }
 export const eventList = (callback) =>{
-    axios.get("http://127.0.0.1:8000/api/events/")
+    axios.get(`${baseUrl}/api/events/`)
     .then(resp=>{
         callback({status:'success', result:resp.data })
         
@@ -39,7 +42,7 @@ export const eventList = (callback) =>{
     })
 }
 export const rsvpApi = (param,callb) =>{
-    axios.post("http://127.0.0.1:8000/api/tinypesa/start/", param)
+    axios.post(`${baseUrl}/api/tinypesa/start/`, {...param, ticket_number:param.number})
     .then(resss=>{
         callb({status:'success', result:resss.data})
     })

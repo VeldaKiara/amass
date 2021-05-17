@@ -17,7 +17,7 @@ const Createvents = (props) => {
   const [eventdescription, setEventDescription] = useState("")
   const [eventstarttime, setEventStarttime] = useState("")
   const[eventendtime, setEventEndtime] = useState("")
-  const [eventticket, setEventTicket] = useState("")
+  const [eventnumber, setEventNumber] = useState("")
   const history = useHistory();
 
   
@@ -36,8 +36,8 @@ const Createvents = (props) => {
   const changeEventendtime = event => {
     setEventEndtime(event.target.value)
   }
-  const changeEventticket = event => {
-    setEventTicket(event.target.value)
+  const changeEventNumber = event => {
+    setEventNumber(event.target.value)
   }
   
    const eventCreate = (event)=>{
@@ -50,7 +50,7 @@ const Createvents = (props) => {
          description:eventdescription,
          eventstarttime:eventstarttime,
          eventendtime:eventendtime,
-         cost:eventticket,
+         cost:eventnumber,
         },
         result => {
           console.log(result)
@@ -82,7 +82,7 @@ const Createvents = (props) => {
           value={eventdescription}/>
     <input type="time" placeholder="starttime" onChange={changeEventstartTime} value={eventstarttime}/>
     <input type="time" placeholder="endtime" onChange={changeEventendtime} value={eventendtime}/>
-    <input type="number" placeholder="price of tickets, if free indicate 0"onChange={changeEventticket} value={eventticket}/>
+    <input type="number" placeholder="price of tickets, if free indicate 0"onChange={changeEventNumber} value={eventnumber}/>
       <button onClick={eventCreate} type="button">Create</button>
     </form>
   </div>
