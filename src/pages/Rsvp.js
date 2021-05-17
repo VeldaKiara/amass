@@ -3,11 +3,22 @@ import { useState } from 'react';
 import {rsvpApi} from '../api/auth'
 
 import { useHistory } from "react-router-dom";
+import { withRouter} from "react-router-dom";
+import { connect } from 'react-redux';
+
+
+const mapStateToProps = (state) => {
+  return {
+    v:state.user.token
+  }
+}
+
+
 
 const Rsvp = (props) =>{
 const [tel, setTel] = useState("")
 const [number,setNumber] = useState("")
-const history = useHistory();
+const history = useHistory(); 
 
 const changeTel = event => {
     setTel(event.target.value)
@@ -16,7 +27,7 @@ const changeTel = event => {
     setNumber(event.target.value)
   }
   const doRsvp = event => {
-      rsvpApi({phone_number:tel, events:props.match.params.id,number:number}, callb=>{
+      rsvpApi(props.v, {phone_number:tel, events:props.match.params.id,number:number}, callb=>{
         if (callb.status === "success"){
            
           alert("You're going to this event")
@@ -52,4 +63,4 @@ const changeTel = event => {
     )
    
 }
-export default Rsvp
+export default connect(mapStateToProps)(withRouter(Rsvp));

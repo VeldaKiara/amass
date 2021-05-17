@@ -15,6 +15,18 @@ export const doLogin = (params,cb) =>{
     })
 
 }
+export const doSignup = (params,cb,email) =>{
+
+    axios.post(`${baseUrl}/api/token/`, params,email)
+    .then(res=>{
+        cb({status:true, result:res.data})
+    })
+    .catch(err=>{
+        cb({status:false, result:err})
+    })
+
+}
+
 // token passing on header to store 
 export const eventCreation = (token,params, callback)=>{
 
@@ -41,8 +53,11 @@ export const eventList = (callback) =>{
         callback({status:'failed', result:erroneous})
     })
 }
-export const rsvpApi = (param,callb) =>{
-    axios.post(`${baseUrl}/api/tinypesa/start/`, {...param, ticket_number:param.number})
+export const rsvpApi = (token, param,callb) =>{
+    const con = {
+        headers: { Authorization: `Bearer ${token}` }
+    };
+    axios.post(`${baseUrl}/api/tinypesa/start/`, {...param,ticket_number:param.number}, con)
     .then(resss=>{
         callb({status:'success', result:resss.data})
     })
